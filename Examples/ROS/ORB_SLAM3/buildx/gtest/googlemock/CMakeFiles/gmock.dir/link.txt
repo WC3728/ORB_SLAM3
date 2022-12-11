@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/wangc35/桌面/T/ORB_SLAM3-0.4-beta/Examples/ROS/ORB_SLAM3/build/gtest/lib ../lib/libgtest.so -lpthread 
